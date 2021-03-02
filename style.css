@@ -1,0 +1,150 @@
+
+/*General*/
+html {
+    font-family: 'Noto Sans', sans-serif;
+    color: #555555;
+}
+.container {
+    width: 100%;
+    background-color: #F5F5F5;  
+}
+
+.logo {
+    text-align: center;
+    padding: 40px;
+}
+
+/*Body*/
+
+.email {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    line-height: 160%;
+    border-radius: 5px;
+    min-width: 480px;
+    
+}
+
+.greeting {
+    font-size: 16px;
+    font-weight: 600;
+    color: #353535;
+    margin: 0;
+    margin-top: 40px;
+}
+
+div.email img{
+    width: 80%;
+    display: block;
+    margin: 20px auto 0;
+   
+}
+
+.email h1 {
+    text-align: center;
+    color: #113255;
+    font-weight: 300;
+    margin: 0;
+}
+
+.email article {
+    margin: 3rem;
+    font-size: 14px;
+    
+}
+
+.list {
+    display: flex;
+}
+
+p.bulletPoints {
+    margin: 0;
+    margin-left: 27px;
+    margin-bottom: 10px;
+}
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    min-width: 480px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 30px auto 0;
+    padding-bottom: 20px;
+}
+
+.contact {
+    background-color: #113255;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 2em;
+    padding-bottom: 3em;
+    text-align: center;
+    
+}
+
+.contact span {
+    color: #FAA017;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.bolder {
+    font-size: 21px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.socialMediaIcons {
+    display: flex;
+    margin: 2em;
+    justify-content: space-around;
+    cursor: pointer;
+   
+}
+
+.info {
+    display: flex;
+    justify-content: center; 
+    cursor: pointer;
+}
+
+.info p {
+    padding: 0 15px 15px 15px;
+    margin: 0;
+}
+
+.contactinfo {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.contactinfo p {
+    margin: 0;
+    padding: 15px 10px 10px 10px;
+    font-size: 14px;
+    color: #757575;
+}
+
+.ending {
+    margin: 2em;
+    font-size: 14px;
+    text-align: center;
+}
+
+.ending img {
+    padding: 10px 0 0;
+}
